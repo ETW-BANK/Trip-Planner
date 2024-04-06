@@ -47,7 +47,7 @@ namespace Trip_Planner_APP.Server
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            app.MapIdentityApi<User>();
+            
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
